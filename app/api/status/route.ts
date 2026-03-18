@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { isAuthenticated, shouldAutoSync, syncVideos } from '@/lib/tiktok';
 import getDb, { toRow } from '@/lib/db';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   const authenticated = await isAuthenticated();
   const db = await getDb();
