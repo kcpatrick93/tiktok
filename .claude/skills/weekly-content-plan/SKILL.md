@@ -82,6 +82,47 @@ Pulled from their own top-performing hooks. Rotate through these when writing va
 Angles 1 and 2 produced the two biggest videos in the account's history. Angle 8
 produced the highest GPM. Lead with those three.
 
+## Standing constraints
+
+Confirmed 13 Sep 2026. These bind every brief. Do not write around them.
+
+1. **No child on camera.** Their son does not appear in footage. Narrating his story is
+   fine and is what the winning scripts already do, but no shots of him and no
+   before/after of his skin. See "Proof without the child" below for what replaces it.
+2. **Affiliate only, no stock.** They earn commission on other sellers' products and
+   request samples through TikTok Shop's affiliate programme. A new product costs time,
+   not capital, so recommend more tests, not fewer, and treat a miss as cheap. They do
+   not control price, stock or sale timing, so never promise a discount the seller has
+   not set.
+3. **UK only.** Pounds, GP, "quid", made in the UK. UK post times. Do not factor US
+   trends into product picks.
+4. **One account for everything.** Keep each cluster contiguous rather than interleaving
+   products. Their best day was five eczema videos back to back. Front-load the week
+   with the money niche and put seasonal tests at the back.
+
+## Proof without the child
+
+The before/after format is worth protecting: 110k average views, £1,091 across seven
+videos, and their single highest GPM at 2.98. Losing the child's skin as the visual
+costs real conversion, so replace the proof rather than dropping the format.
+
+Ranked by how well each carries the fixed back half:
+
+1. **Absorption demo, adult hands.** Two creams on two hands, one sits on the surface,
+   one sinks in. A tissue pressed to each. This proves the exact claim the script
+   already makes ("most creams just sit on the top of the skin", "no greasy residue")
+   and needs nobody's face.
+2. **Seller-supplied creative.** As affiliates they can ask the seller for approved
+   before/after imagery and UGC. Most sellers have a media pack. This is the closest
+   substitute for what was lost and it costs an email. Check usage rights.
+3. **Ingredient comparison.** The back of a mainstream cream against the back of theirs.
+   Carries the "no steroids, no parabens, nothing synthetic" beat visually.
+4. **Review and volume proof.** Screen-recorded ratings, "over 18,000 sold".
+5. **Adult skin.** Sandy's own hands in cold weather. Honest, and dry skin is not eczema,
+   so keep the claim matched to what is on screen.
+
+Never imply footage shows their son when it does not.
+
 ## Who this account actually is
 
 Do not treat this as a general TikTok Shop account. The numbers say otherwise.
@@ -216,6 +257,25 @@ source bank with no subscription and no dependency on anything above.
 If no source script is available for a slot, do not invent a URL or present a script
 as sourced when it was written here. Write `NO SOURCE: search "<term>"` and fall back
 to cloning one of their own.
+
+## Sample requests, not purchases
+
+They are affiliates with no stock, so this section is a list of samples to request
+through TikTok Shop, not a shopping list. A miss costs an email and a week. Recommend
+five or six, not two, and expect most to go nowhere.
+
+Each one needs:
+
+- Why it fits a UK parent of a child with eczema or dry skin, specifically
+- The seasonal or dated reason it is right now
+- Commission rate to check before filming, since rates vary wildly by category and
+  small electricals often sit at 5 to 10%
+- **Whether the seller supplies creative assets.** This matters more than it used to.
+  With the child off camera, a seller media pack with approved before/after imagery is
+  worth more than a couple of points of commission. Ask before choosing between two
+  similar products.
+
+Do not recommend anything they would have to buy.
 
 ## Send
 
