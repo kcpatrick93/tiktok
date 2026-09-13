@@ -168,25 +168,54 @@ is where the line sits and it stays there.
 - Shot list, 3 to 5 shots
 - On-screen text, hashtags, CTA
 
+## Volume: 21 a week, three a day
+
+Four clusters, filmed in two sessions:
+
+| Days | Cluster | Videos |
+|---|---|---|
+| Mon, Tue | A, hero product | 6 |
+| Wed, Thu | B, second product | 6 |
+| Fri, Sat | C, seasonal or dated play | 5 |
+| Sat, Sun | D, lighter or skit | 4 |
+
+Session 1 covers A and B, session 2 covers C and D. Filming the shared back half once
+per cluster is what makes 21 possible in two sessions rather than seven.
+
+Three a day is above the rate at which every video gets its own idea, and that is the
+point: the clusters are supposed to repeat themselves. Do not pad to 21 with 21
+different products. Four products, four back halves, 21 hooks.
+
 ## Sourcing the scripts
 
-This is the open dependency. A clone needs the source transcript, not just a link.
+A clone needs the transcript, not just a link. Two routes, one of them tested and dead.
 
-**Two known constraints.**
+**Reading TikTok from here does not work.** Tested 13 Sep 2026: plain fetching returns
+a JavaScript shell; curl reaches tiktok.com and pulls 358KB, but the rehydration blob
+contains only app config, zero video IDs, zero handles, and 25 references to captcha,
+so content is withheld from this IP. The session's headless Chromium cannot open a
+tunnel through the egress proxy at all (it fails on example.com too), and the IP
+geolocates to US, so even a working scrape would return US content by default rather
+than UK. Do not spend time retrying this. Anything requiring a logged-in browser
+session, social1 included, has to be driven by a person.
 
-Outside videos: tiktok.com returns a JavaScript shell to anything automated, so
-neither links nor transcripts can be pulled from the open web. See
-`content-plans/README.md` for the options and current status.
+**The route that works: a Google Sheet Sandy fills in.** Drive is readable from here.
+She browses in her own browser, and drops rows in:
 
-Their own library: **7 of 719 videos have a transcript saved, about 1%.** Every one of
-those seven is an eczema or sleep video from a two-week window in March. The account's
-own back catalogue is the cheapest source library available and it is almost entirely
-unwritten down. Backfilling the top 30 by commission is the single highest-return
-housekeeping job on this account.
+| Date | Video link | Handle | Product | Views | Why it caught her eye | Script |
+|---|---|---|---|---|---|---|
 
-If no source script is available for a slot, do not invent a URL or pretend a script
-is sourced. Write `NO SOURCE: search "<term>"` and fall back to cloning one of their
-own seven.
+The Script column is the one that matters. A link alone cannot be read from here, so a
+row without pasted script text is a suggestion, not a source.
+
+**Their own library is the free fallback.** 7 of 719 videos have a transcript saved,
+about 1%, all from one two-week window in March, and they include the two biggest
+videos the account has ever posted. Backfilling the top 30 by commission gives a
+source bank with no subscription and no dependency on anything above.
+
+If no source script is available for a slot, do not invent a URL or present a script
+as sourced when it was written here. Write `NO SOURCE: search "<term>"` and fall back
+to cloning one of their own.
 
 ## Send
 

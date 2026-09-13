@@ -20,51 +20,55 @@ a two-week window in March 2026, and they include the two biggest videos the acc
 has ever posted. Backfilling the top 30 by commission costs an afternoon and removes
 the external dependency below for most weeks. Do this first.
 
-### Outside viral videos (blocked)
+### Outside viral videos (blocked from here)
 
-Tested on 13 Sep 2026, all negative:
-
-Tested on 13 Sep 2026, all negative:
+Tested 13 Sep 2026. Reading TikTok from this environment does not work, by any route tried:
 
 | Route | Result |
 |---|---|
-| Fetching `tiktok.com/discover/...` pages | Returns the JavaScript shell only. No videos, no handles, no URLs. |
-| Fetching TikTok Creative Center Top Ads | Same. Renders client-side, comes back empty. |
-| Web search for specific videos | Returns TikTok *topic* pages, never `tiktok.com/@user/video/<id>` links. |
-| TikTok's official Display API (this repo's OAuth) | Scopes are `user.info.basic`, `user.info.stats`, `video.list`. Own account only. No trend or competitor data by design. |
+| Plain page fetching | Returns the JavaScript shell only. No videos, handles or URLs. |
+| TikTok Creative Center | Same. Renders client-side, comes back empty. |
+| Web search for specific videos | Returns TikTok *topic* pages, never `@user/video/<id>` links. |
+| curl with a real browser UA | Reaches tiktok.com, 200, 358KB. But the rehydration blob holds only app config: zero video IDs, zero handles, and 25 references to captcha. Content is withheld from this IP. |
+| Headless Chromium (Playwright 1.56) | Cannot open a tunnel through the egress proxy at all. Fails on example.com too, so it is not a TikTok block, it is no browser networking. |
 
-So outside scripts have to come from somewhere else. Three options:
+Two further notes. The blob reports `region: US`, so the IP geolocates to the States and
+even a working scrape would default to US content rather than UK. And anything behind a
+login, social1 included, needs a human driving a real browser regardless.
 
-**A. A TikTok Shop data tool with an API.** Kalodata, EchoTik or FastMoss. All three
-carry UK and US trending video feeds with direct links, and some surface top-performing
-video scripts per product, which is exactly what clone-and-vary needs. They also give
-GMV and sales velocity, which would sharpen the "consider ordering" section. Paid,
-roughly £50 to £150/month. The only option that makes the weekly plan fully
-self-serving.
+Do not spend time retrying these.
 
-**B. Sandy feeds them.** She saves 10 to 15 videos a week and drops the links plus the
-spoken script into a shared Google Sheet or Drive doc. Free, about fifteen minutes a
-week, and it has a real upside: her judgement on what will work is better than any
-API's. The catch is that the transcript has to come from her, since a link alone
-cannot be read from here.
+### The route that works
 
-**C. Own catalogue only.** Clone and re-aim their own past winners, which is what the
-first week's plan does. Free, immediate, no dependency, and viable indefinitely for
-the eczema products. Weakest for anything outside the niche they already have data on.
+**A Google Sheet Sandy fills in.** Drive is readable from here (verified 13 Sep). She
+browses in her own browser, on whatever tool she likes, and drops rows in:
 
-Until one is chosen, an unsourced slot is written as:
+| Date | Video link | Handle | Product | Views | Why it caught her eye | Script |
+|---|---|---|---|---|---|---|
 
-```
-NO SOURCE: search "<term>"
-```
+The **Script** column is the one that matters. A link alone cannot be read from here,
+so a row without pasted script text is a suggestion, not a source.
 
-Never a fabricated URL, never a script presented as sourced when it was written here.
+### On paying for a tool
+
+Worth knowing before spending: the affordable tiers of the TikTok Shop data tools are
+web UIs, not APIs, so they do not remove the human step above.
+
+- **Kalodata** Starter about $49.99/mo, Professional about $109.99/mo
+  ([pricing roundup](https://creatify.ai/blog/kalodata-pricing-plans-and-what-you-ll-actually-pay-in-2026)).
+- **FastMoss** Basic about $47 to $59/mo, Pro about $125 to $179/mo. API access is
+  quoted separately at roughly $500 to $5,000/year and is aimed at enterprise
+  ([pricing roundup](https://simptok.com/how-much-is-fastmoss/)).
+- **EchoTik** comparable tiers.
+
+So a subscription buys Sandy a better hunting ground, not a pipe into this process.
+The Sheet is still the handover either way. Verify current pricing before buying, these
+move.
 
 ## Also unresolved
 
-- **"social1"** was mentioned as an account to check trending UK and US videos from. It
-  does not match any connected connector, and no TikTok account is connected through
-  Higgsfield either. Needs identifying before it can be wired in.
+- **"social1"** is a third-party trend tool. It needs a logged-in browser, which this
+  environment does not have, so Sandy drives it and hands over via the Sheet.
 - **Sandy's email address** is needed before the Sunday send can go to both of them.
 - **Umbrella** is not in the dashboard, so price, commission rate and stock are unknown.
 - **Dashboard sync** last ran 24 Aug 2026. The scoreboard section stays thin until it
