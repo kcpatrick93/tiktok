@@ -229,34 +229,61 @@ different products. Four products, four back halves, 21 hooks.
 
 ## Sourcing the scripts
 
-A clone needs the transcript, not just a link. Two routes, one of them tested and dead.
+A clone needs the transcript, not just a link. There are three routes and they are not
+interchangeable.
 
-**Reading TikTok from here does not work.** Tested 13 Sep 2026: plain fetching returns
-a JavaScript shell; curl reaches tiktok.com and pulls 358KB, but the rehydration blob
-contains only app config, zero video IDs, zero handles, and 25 references to captcha,
-so content is withheld from this IP. The session's headless Chromium cannot open a
-tunnel through the egress proxy at all (it fails on example.com too), and the IP
-geolocates to US, so even a working scrape would return US content by default rather
-than UK. Do not spend time retrying this. Anything requiring a logged-in browser
-session, social1 included, has to be driven by a person.
+### 1. Apify, the backbone (unattended, runs on a schedule)
 
-**The route that works: a Google Sheet Sandy fills in.** Drive is readable from here.
-She browses in her own browser, and drops rows in:
+`node scripts/find-source-scripts.mjs` calls Apify's `clockworks/tiktok-scraper`, which
+does discovery and transcription in one run. Apify scrapes from its own residential
+proxies, so the captcha wall that blocks direct reading does not apply.
 
-| Date | Video link | Handle | Product | Views | Why it caught her eye | Script |
-|---|---|---|---|---|---|---|
+The three settings that make it work:
 
-The Script column is the one that matters. A link alone cannot be read from here, so a
-row without pasted script text is a suggestion, not a source.
+- `proxyCountryCode: 'GB'` scrapes as if in the UK, which is the whole original ask
+- `downloadSubtitlesOptions: 'DOWNLOAD_AND_TRANSCRIBE_VIDEOS_WITHOUT_SUBTITLES'` returns
+  TikTok's own subtitles where they exist and speech-to-text for everything else
+- `videoSearchSorting: 'MOST_LIKED'` with `videoSearchDateFilter: 'PAST_MONTH'`
 
-**Their own library is the free fallback.** 7 of 719 videos have a transcript saved,
-about 1%, all from one two-week window in March, and they include the two biggest
-videos the account has ever posted. Backfilling the top 30 by commission gives a
-source bank with no subscription and no dependency on anything above.
+Output lands in `content-plans/sources/<date>.md`, ranked by engagement rate rather than
+raw plays, because a big view count can just be a big push. Rows with fewer than 40
+transcribed words are dropped as unusable.
 
-If no source script is available for a slot, do not invent a URL or present a script
-as sourced when it was written here. Write `NO SOURCE: search "<term>"` and fall back
-to cloning one of their own.
+Cost is negligible: comparable transcript actors run at $0.001 a result and Apify's free
+tier carries $5 of monthly credit, so this volume sits inside the free plan.
+
+Needs `APIFY_TOKEN` set on the environment, and `NODE_USE_ENV_PROXY=1` because Node's
+built-in fetch ignores `HTTPS_PROXY` without it.
+
+**This is the only route the scheduled Sunday job can depend on.** The other two need a
+person, and a job that needs a person present is not scheduled.
+
+### 2. Kevin's browser and social1 (ad-hoc, when he is at his laptop)
+
+social1 is behind a login and needs a real browser, which no server-side session has.
+When Kevin is at his laptop and running Claude Code locally, that session can drive his
+browser for a deeper dig: a specific competitor, a product page, something Apify's
+search terms would not surface.
+
+Treat this as a research bonus, never as an input the weekly plan waits on. If the
+Sunday job runs and Kevin is out, the plan still has to be complete.
+
+### 3. Their own back catalogue (free, currently 1% used)
+
+7 of 719 videos have a transcript saved, all from one fortnight in March, and they
+include the two biggest videos the account has ever posted. The transcript field sits in
+the same edit form as the sales figures and saves on the same action, so it backfills as
+a side effect of the sales upload. Top 30 by commission is enough.
+
+Sandy can also drop links plus pasted script text into a shared Google Sheet, which is
+readable from here. Her judgement on what will land beats a search query, so treat her
+rows as higher priority than anything Apify surfaces.
+
+### The rule
+
+If no source script is available for a slot, do not invent a URL or present a script as
+sourced when it was written here. Write `NO SOURCE: search "<term>"` and fall back to
+cloning one of their own.
 
 ## Sample requests, not purchases
 
