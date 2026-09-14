@@ -1,0 +1,313 @@
+---
+name: weekly-content-plan
+description: Build the Sunday TikTok Shop content plan for the week ahead and email it to Kevin and Sandy. Use when the scheduled Sunday job fires, or when either of them asks for "this week's plan", "the content plan", "what are we filming this week".
+---
+
+# Weekly TikTok Shop Content Plan
+
+Runs every Sunday 18:00 UK time. Produces one email: what to film, why, and the
+source script to copy.
+
+Sandy leads on filming and is the on-camera face. Kevin appears in two-hander skits.
+Write the plan so Sandy can pick it up cold on Monday morning and shoot without
+asking follow-up questions.
+
+## The method: clone, then vary
+
+The plan is **not** a set of original scripts. It is a proven script copied word for
+word, plus angle variants of it. Original writing is the fallback, not the default.
+
+Their own numbers make the case better than any argument:
+
+On 13 and 14 March 2026 they posted five videos for the same eczema product, off the
+same core script, with five different hooks.
+
+| Posted | Angle | Views | Sales | Commission | GPM |
+|---|---|---|---|---|---|
+| 13 Mar 17:21 | "I felt so guilty every time I said it" | 494,290 | 210 | £522.06 | 1.26 |
+| 13 Mar 18:26 | "Nobody told me this and I wish they had" | 732,503 | 273 | £679.43 | 1.14 |
+| 14 Mar 08:31 | "Same appointment. Same answer." | 20,763 | 5 | £14.10 | 0.69 |
+| 14 Mar 12:29 | "Thank me later" (before/after) | 125,828 | 82 | £361.31 | 2.98 |
+| 14 Mar 17:56 | "Wish I found this sooner" | 24,060 | 11 | £30.12 | 1.40 |
+| **Total** | | **1,397,444** | **581** | **£1,607.02** | |
+
+That is **36.6% of everything the account has ever earned, from five videos in
+24 hours.** Two of the five carried 75% of it. Three did almost nothing.
+
+The hit rate is the whole point. Nobody, including whoever writes this plan, can pick
+which angle lands. Firing five is what produced the result, not picking well.
+
+### The structural rule this cluster proves
+
+Read the two big winners side by side and the pattern is exact:
+
+- **The front half changes.** Hook and emotional frame are different in every variant.
+- **The back half does not.** Every one converges on the same beats in the same order:
+  *most creams sit on top of the skin* → ingredient list → *no steroids, no parabens,
+  nothing synthetic* → *made in the UK* → price said plainly → orange basket.
+
+So: **the hook decides reach, the back half decides conversion.** Vary the front,
+leave the back alone. A variant that rewrites the back half is not a variant, it is a
+new video, and it throws away the only part already proven to sell.
+
+### Running it each week
+
+1. **Source.** Pick one script with evidence behind it. Either an outside viral video
+   in the niche, or one of their own past winners. Get the transcript verbatim.
+2. **Clone.** Shoot it word for word. Swap only the product name and any factual
+   detail that would otherwise be false. This is the control.
+3. **Vary.** Three to five variants. New hook and new emotional frame each time. Back
+   half untouched.
+4. **Cluster the posts.** Their winners went out 64 minutes apart, not spread across a
+   week. Post the set inside 24 to 36 hours so they compete and TikTok picks fast.
+5. **Read GPM, not views.** The 732k-view video ran at 1.14 GPM. The 125k-view
+   before/after ran at 2.98. Views tell you the hook worked. GPM tells you the video
+   earned.
+6. **Scale the winner.** Next week's source script is this week's best variant, cloned
+   again against a new product or a new season angle.
+
+### The angle bank
+
+Pulled from their own top-performing hooks. Rotate through these when writing variants.
+
+1. **Guilt** — "I felt so guilty every time I said it"
+2. **Mechanism nobody explains** — "There's a reason this keeps coming back and nobody explains it"
+3. **Authority failed us** — "We kept going back to the GP. Same prescription, same result."
+4. **Diagnostic address** — "Does your X look like this?"
+5. **Volume proof** — "Over 18,000 of these have sold and I'm about to tell you why"
+6. **Late discovery** — "Wish I'd found this sooner"
+7. **Negative command** — "Stop buying £5 umbrellas"
+8. **Silent result** — before/after cold open, no voice until after the cut
+
+Angles 1 and 2 produced the two biggest videos in the account's history. Angle 8
+produced the highest GPM. Lead with those three.
+
+## Standing constraints
+
+Confirmed 13 Sep 2026. These bind every brief. Do not write around them.
+
+1. **No child on camera.** Their son does not appear in footage. Narrating his story is
+   fine and is what the winning scripts already do, but no shots of him and no
+   before/after of his skin. See "Proof without the child" below for what replaces it.
+2. **Affiliate only, no stock.** They earn commission on other sellers' products and
+   request samples through TikTok Shop's affiliate programme. A new product costs time,
+   not capital, so recommend more tests, not fewer, and treat a miss as cheap. They do
+   not control price, stock or sale timing, so never promise a discount the seller has
+   not set.
+3. **UK only.** Pounds, GP, "quid", made in the UK. UK post times. Do not factor US
+   trends into product picks.
+4. **One account for everything.** Keep each cluster contiguous rather than interleaving
+   products. Their best day was five eczema videos back to back. Front-load the week
+   with the money niche and put seasonal tests at the back.
+
+## Proof without the child
+
+The before/after format is worth protecting: 110k average views, £1,091 across seven
+videos, and their single highest GPM at 2.98. Losing the child's skin as the visual
+costs real conversion, so replace the proof rather than dropping the format.
+
+Ranked by how well each carries the fixed back half:
+
+1. **Absorption demo, adult hands.** Two creams on two hands, one sits on the surface,
+   one sinks in. A tissue pressed to each. This proves the exact claim the script
+   already makes ("most creams just sit on the top of the skin", "no greasy residue")
+   and needs nobody's face.
+2. **Seller-supplied creative.** As affiliates they can ask the seller for approved
+   before/after imagery and UGC. Most sellers have a media pack. This is the closest
+   substitute for what was lost and it costs an email. Check usage rights.
+3. **Ingredient comparison.** The back of a mainstream cream against the back of theirs.
+   Carries the "no steroids, no parabens, nothing synthetic" beat visually.
+4. **Review and volume proof.** Screen-recorded ratings, "over 18,000 sold".
+5. **Adult skin.** Sandy's own hands in cold weather. Honest, and dry skin is not eczema,
+   so keep the claim matched to what is on screen.
+
+Never imply footage shows their son when it does not.
+
+## Who this account actually is
+
+Do not treat this as a general TikTok Shop account. The numbers say otherwise.
+
+| Product | Commission | Share of all-time |
+|---|---|---|
+| Tissue Oil | £1,780 | 41% |
+| Exeskin Balm (honey & propolis) | £792 | 18% |
+| Tiny Humans, Big Emotions (book) | £633 | 14% |
+| Reflective Radiator Foil | £431 | 10% |
+
+The top three sell to one person: **a UK parent whose child has eczema, sensitive or
+dry skin.** That is 73% of every pound earned. Radiator foil is the same household in
+winter.
+
+Every product pick gets filtered through one question: *would a stressed UK parent of
+a 4-year-old stop scrolling for this?* If no, it does not go in the plan, however well
+it is trending elsewhere.
+
+## Read the numbers before writing anything
+
+From the TTSAnalytics MCP server:
+
+- `get_summary` for the sync date. **If `last_synced` is more than 10 days old, say so
+  at the top of the email.** Do not present stale attribution as this week's result.
+- `get_videos_with_transcripts` for the script library.
+- `get_top_videos` with `days: 30` for what is live now.
+- `get_product_breakdown` and `get_format_breakdown` for what converts.
+- `get_monthly_trend` for direction of travel.
+
+Attribution lags. A video posted in the last 7 to 14 days with £0 against it is
+usually unattributed, not failed. Say "too early to call" rather than "flopped".
+
+## Format and production style
+
+Formats, by their measured numbers:
+
+| Format | Avg GPM | Avg views | Role |
+|---|---|---|---|
+| BOFU Text-Led | 5.22 | 34k | Conversion. Cheap, faceless, best £ per view. |
+| Skit | 2.99 | 10k | Kevin + Sandy two-hander. |
+| Before/After hook | 1.55 | 110k | The balanced workhorse. |
+| Storytelling | 1.01 | 75k | Their signature. Biggest reach. |
+| Shouty Hook | 1.00 | 232k | Widest net, weakest per-view return. |
+
+A variant set should span both engines. Reach formats feed the account, text-led
+converts the people reach brought in.
+
+Production styles:
+
+- **Talking head** (Sandy): Storytelling, Shouty Hook, Skit.
+- **Faceless** (hands, product, close-ups, text): BOFU Text-Led, Before/After.
+- **AI hybrid** (AI voice over real product footage): BOFU Text-Led only. Keep AI off
+  the eczema story content. That testimony carries because it is plainly a real
+  parent, and a synthetic voice on a medical-adjacent claim reads as fake and risks
+  the trust the whole niche runs on.
+
+## The house voice
+
+Taken from the highest-earning transcripts. Any cloned script gets bent into this.
+
+- Problem first, product second. Never open on the product.
+- Parent guilt and relief are the register.
+- The failed-attempts beat is mandatory: "We kept going back. Nothing lasted."
+- Ingredients as proof, then "made in the UK".
+- Price said plainly: "under 17 quid".
+- Social proof by number: "over 18,000 of these have sold".
+- Close on "click the orange basket below" plus a stock or sale reason to move now.
+
+One hard limit on cloning: copy structure, pacing and phrasing freely, but never copy
+a **claim** the product cannot support. If a source script says a product cured
+something, that line does not survive the clone. "Suitable for skin prone to eczema"
+is where the line sits and it stays there.
+
+## What each brief needs
+
+- Source script, verbatim, with where it came from
+- Which variant this is and which angle from the bank
+- Product and the exact price to say out loud
+- Format and production style
+- Film day and post time, with the cluster window stated
+- Hook, written as the words spoken in the first 2 seconds
+- The back half, unchanged, spelled out so it is not improvised
+- Shot list, 3 to 5 shots
+- On-screen text, hashtags, CTA
+
+## Volume: 21 a week, three a day
+
+Four clusters, filmed in two sessions:
+
+| Days | Cluster | Videos |
+|---|---|---|
+| Mon, Tue | A, hero product | 6 |
+| Wed, Thu | B, second product | 6 |
+| Fri, Sat | C, seasonal or dated play | 5 |
+| Sat, Sun | D, lighter or skit | 4 |
+
+Session 1 covers A and B, session 2 covers C and D. Filming the shared back half once
+per cluster is what makes 21 possible in two sessions rather than seven.
+
+Three a day is above the rate at which every video gets its own idea, and that is the
+point: the clusters are supposed to repeat themselves. Do not pad to 21 with 21
+different products. Four products, four back halves, 21 hooks.
+
+## Sourcing the scripts
+
+A clone needs the transcript, not just a link. There are three routes and they are not
+interchangeable.
+
+### 1. Apify, the backbone (unattended, runs on a schedule)
+
+`node scripts/find-source-scripts.mjs` calls Apify's `clockworks/tiktok-scraper`, which
+does discovery and transcription in one run. Apify scrapes from its own residential
+proxies, so the captcha wall that blocks direct reading does not apply.
+
+The three settings that make it work:
+
+- `proxyCountryCode: 'GB'` scrapes as if in the UK, which is the whole original ask
+- `downloadSubtitlesOptions: 'DOWNLOAD_AND_TRANSCRIBE_VIDEOS_WITHOUT_SUBTITLES'` returns
+  TikTok's own subtitles where they exist and speech-to-text for everything else
+- `videoSearchSorting: 'MOST_LIKED'` with `videoSearchDateFilter: 'PAST_MONTH'`
+
+Output lands in `content-plans/sources/<date>.md`, ranked by engagement rate rather than
+raw plays, because a big view count can just be a big push. Rows with fewer than 40
+transcribed words are dropped as unusable.
+
+Cost is negligible: comparable transcript actors run at $0.001 a result and Apify's free
+tier carries $5 of monthly credit, so this volume sits inside the free plan.
+
+Needs `APIFY_TOKEN` set on the environment, and `NODE_USE_ENV_PROXY=1` because Node's
+built-in fetch ignores `HTTPS_PROXY` without it.
+
+**This is the only route the scheduled Sunday job can depend on.** The other two need a
+person, and a job that needs a person present is not scheduled.
+
+### 2. Kevin's browser and social1 (ad-hoc, when he is at his laptop)
+
+social1 is behind a login and needs a real browser, which no server-side session has.
+When Kevin is at his laptop and running Claude Code locally, that session can drive his
+browser for a deeper dig: a specific competitor, a product page, something Apify's
+search terms would not surface.
+
+Treat this as a research bonus, never as an input the weekly plan waits on. If the
+Sunday job runs and Kevin is out, the plan still has to be complete.
+
+### 3. Their own back catalogue (free, currently 1% used)
+
+7 of 719 videos have a transcript saved, all from one fortnight in March, and they
+include the two biggest videos the account has ever posted. The transcript field sits in
+the same edit form as the sales figures and saves on the same action, so it backfills as
+a side effect of the sales upload. Top 30 by commission is enough.
+
+Sandy can also drop links plus pasted script text into a shared Google Sheet, which is
+readable from here. Her judgement on what will land beats a search query, so treat her
+rows as higher priority than anything Apify surfaces.
+
+### The rule
+
+If no source script is available for a slot, do not invent a URL or present a script as
+sourced when it was written here. Write `NO SOURCE: search "<term>"` and fall back to
+cloning one of their own.
+
+## Sample requests, not purchases
+
+They are affiliates with no stock, so this section is a list of samples to request
+through TikTok Shop, not a shopping list. A miss costs an email and a week. Recommend
+five or six, not two, and expect most to go nowhere.
+
+Each one needs:
+
+- Why it fits a UK parent of a child with eczema or dry skin, specifically
+- The seasonal or dated reason it is right now
+- Commission rate to check before filming, since rates vary wildly by category and
+  small electricals often sit at 5 to 10%
+- **Whether the seller supplies creative assets.** This matters more than it used to.
+  With the child off camera, a seller media pack with approved before/after imagery is
+  worth more than a couple of points of commission. Ask before choosing between two
+  similar products.
+
+Do not recommend anything they would have to buy.
+
+## Send
+
+Email to Kevin and Sandy. Subject: `Content plan: w/c <Mon date>`.
+
+First screen on a phone carries the week's angle, the source script, and Monday's
+shoot. Detail below. Scoreboard last. Under roughly 1,200 words. A plan they skim and
+use beats a plan they save for later and never open.
